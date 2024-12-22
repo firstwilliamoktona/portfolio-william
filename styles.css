@@ -21,7 +21,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #46027e;
+    background: linear-gradient(90deg, #54008b, #0f0024);
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -154,7 +154,7 @@ h2::after {
     display: block;
     width: 50%;
     height: 3px;
-    background: #46027e;
+    background: linear-gradient(90deg, #54008b, #0f0024);
     margin: 0.5rem auto 0;
     border-radius: 10px;
 }
@@ -191,7 +191,7 @@ h2::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #2c0258;
+    background: linear-gradient(90deg, #54008b, #2d016b);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -239,14 +239,14 @@ h2::after {
 
 .contact-form input:focus, .contact-form textarea:focus {
     outline: none;
-    border-color: #46027e;
+    background: linear-gradient(90deg, #54008b, #0f0024);
     box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
 }
 
 .contact-form button {
     padding: 1rem;
     border: none;
-    background: #46027e;
+    background: linear-gradient(90deg, #54008b, #0f0024);
     color: #fff;
     font-size: 1rem;
     border-radius: 10px;
@@ -263,7 +263,7 @@ h2::after {
 .footer {
     text-align: center;
     padding: 1.5rem 0;
-    background: #46027e;
+    background: linear-gradient(90deg, #54008b, #0f0024);
     color: #fff;
     margin-top: 2rem;
     border-top-left-radius: 20px;
