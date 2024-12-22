@@ -296,19 +296,35 @@ h2::after {
     iframe {
         max-width: 100%;
     }
+    .nav-text {
+        font-size: 1rem;
+        display: none;
+        
+    }
+    
+.material-icons {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin: 1rem;
+}
 }
 
 @media (max-width: 480px) {
     .name {
         font-size: 1.8rem;
     }
-        .nav-text {
-        display: block;
-        font-size: 0.7rem;
+    .nav-text {
+        font-size: 1rem;
+        margin-top:0.5rem;
+        display: none;
+ 
     }
+    
+ 
 
     .material-icons {
         font-size: 1.5rem;
+        margin: 0.5rem;
     }
     iframe {
         max-width: 100%;
